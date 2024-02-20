@@ -1,0 +1,7 @@
+MOV R1,#0xFF //R1 := 0xFF
+MOV R2, #0xFF //R2 := 0xFF
+MOVC1 R1, R2 // 8-bits multiplication = 0xFE01
+//Second Test
+MOV R3, #0x10 //R3 := 0x10
+MOV R4, #0x02 //R4 := 0x02
+MOVC1 R3, R4 // 8-bits multiplication = 0x0020
